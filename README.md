@@ -1,6 +1,6 @@
 # Batch Scripts for MySQL Initialization and Configuration
 
-## Batch Script 1: MySQL Initialization and Configuration
+## Batch Script 1: MySQL Initialization and Configuration (init_mysql.bat)
 
 ### Purpose
 
@@ -16,12 +16,12 @@ This batch script is designed to:
 - **Set Password**: Configures the root user with the specified new password.
 - **Terminate Process**: Stops the MySQL server process after configuration.
 
-## Batch Script 2: MySQL Server Management
+## Batch Script 2: MySQL Server Management (setmysql.bat)
 
 ### Purpose
 
 This script focuses on managing the MySQL server process directly, ensuring that it can be properly terminated after configuration or other operations.
 
 ### Workflow
-- **Process Identification**: Identifies the MySQL server process currently running on the system.
-- **Terminate Process**: Forces the termination of the identified MySQL server process, regardless of its process ID.
+- **Setting MySQL server main folder**
+- **Setting password you wish to set**
